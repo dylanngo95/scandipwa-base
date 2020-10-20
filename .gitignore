@@ -1,6 +1,7 @@
 node_modules/
 opt/*
 src/*
+!src/app/design/frontend/Scandiweb/pwa/*
 !src/composer.*
 !.gitignore
 !**/.gitkeep

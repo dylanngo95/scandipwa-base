@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26c6e5d16a9cac2383a3ff71590e9e64",
+    "content-hash": "d89c040b1a255f164e7f668be4638fcb",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -15193,6 +15193,36 @@
             ],
             "description": "ScandiPWA dedicated router",
             "time": "2020-09-07T10:32:08+00:00"
+        },
+        {
+            "name": "scandipwa/sample-data",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/sample-data.git",
+                "reference": "92741fa7fff3dcb16ab440a49a86354fa188b5e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/sample-data/zipball/92741fa7fff3dcb16ab440a49a86354fa188b5e3",
+                "reference": "92741fa7fff3dcb16ab440a49a86354fa188b5e3",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento2-base": "^2.3.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\SampleData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Sample data for ScandiPWA",
+            "time": "2020-07-17T10:56:39+00:00"
         },
         {
             "name": "scandipwa/slider",
